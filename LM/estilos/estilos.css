@@ -136,7 +136,6 @@ a:hover{/*estilos para cuando se ponga el cursor encima de los links*/
     background-color: #00000076;
     position: absolute;
     top: 0;
-    
 }
 .titulo{
     position: absolute;
@@ -144,24 +143,27 @@ a:hover{/*estilos para cuando se ponga el cursor encima de los links*/
 }
 .listado-eventos{
     position: absolute;
-    top: 15%;
-    left: 15%;
+    padding: 0;
+}
+.listado-eventos table td{
+    padding: 90px;
+}
+.listado-eventos table td h2{
+    margin: 0%;
+    padding: 0%;
+    left: 2%;
 }
 .listado-eventos ul{
     position: absolute;
     list-style-type: none;
 }
-.listado-eventos ul h2{
-    font-size: 1.4rem;
-    list-style-type: none;
-}
 .listado-eventos ul a{
     text-decoration: none;
-    text-align: start;
     font-size: 1.1rem;
-    color: white;
+    color: inherit;
 }
-.listado-eventos .actividades{
-    position: relative;
-    right: 0%;
+.listado-eventos ul a:hover{/*estilos para cuando se ponga el cursor encima de los links*/
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
 }
